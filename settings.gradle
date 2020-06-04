@@ -1,1 +1,1 @@
-include ':app', ':taskworkbook3'
+include ':app', ':taskworkbook3', ':customview'
