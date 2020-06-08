@@ -24,7 +24,7 @@ public class WebActivity extends AppCompatActivity {
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
         String title = getIntent().getStringExtra("title");
-        mWebView.loadUrl("https://www.baidu.com");
+        mWebView.loadUrl("https://github.com/wangjianxiandev/WanAndroidMVVM");
         mWebView.setWebViewClient(new WebViewClient());
 
         mToolbar.setTitle(title);
